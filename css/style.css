@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a:link,
+a:visited,
+a:active {
+  text-decoration: none;
+  color: black;
+}
+
+.parte-principal {
+  min-height: 60vh;
+  background-image: url(../images/George-Orwell.webp);
+  background-size: cover;
+  background-position: center;
+}
+
+.info-orwell {
+  margin: 15px 7px 15px 7px;
+  line-height: 25px;
+  text-align: justify;
+}
+
+/* footer */
+footer {
+  color: black;
+  background-color: cadetblue;
+}

@@ -11,6 +11,10 @@ a:active {
   color: black;
 }
 
+h2 {
+  margin: 10px;
+}
+
 .parte-principal {
   min-height: 60vh;
   background-image: url(../images/George-Orwell.webp);
@@ -28,4 +32,30 @@ a:active {
 footer {
   color: black;
   background-color: cadetblue;
+}
+
+.btn {
+  margin: 10px;
+}
+
+/* Vista Escritorio */
+
+@media (min-width: 1024px) {
+  /* navbar */
+
+  .navbar-collapse {
+    justify-content: end;
+  }
+
+  .titulo {
+    margin-left: 20px;
+  }
+
+  /* Biografia */
+
+  .info-orwell {
+    width: 75%;
+    margin: auto;
+    line-height: 35px;
+  }
 }
